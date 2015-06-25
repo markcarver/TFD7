@@ -29,12 +29,12 @@ else {
 
 
 /**
- * registers the .tpl.twig extension for twig templates
+ * registers the .html.twig extension for twig templates
  * @return string
  */
 function twig_extension()
 {
-    return ".tpl.twig";
+    return ".html.twig";
 }
 
 
